@@ -32,7 +32,7 @@ namespace CSharpObject
             Console.WriteLine("my name is {0}", _name);
         }
         //虚方法：声明为virtual的方法就是虚方法。基类的虚方法可以在派生类中使用override重写
-        //多态：通过指向派生类的基类引用，调用需函数，会根据引用所指向派生类的实际类型，调用派生类中的同名重写函数，便是多态
+        //多态：通过指向派生类的基类引用，调用虚函数，会根据引用所指向派生类的实际类型，调用派生类中的同名重写函数，便是多态
        
         virtual public void speak()
         {
