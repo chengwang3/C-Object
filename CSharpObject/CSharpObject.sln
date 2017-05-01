@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gather", "gather\gather.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate", "Delegate\Delegate.csproj", "{ACACABD9-93B5-43A7-8FBC-562A98590726}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event", "Event\Event.csproj", "{6EBC4B5B-07DF-4155-8188-43A1E029DF02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{ACACABD9-93B5-43A7-8FBC-562A98590726}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACACABD9-93B5-43A7-8FBC-562A98590726}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACACABD9-93B5-43A7-8FBC-562A98590726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EBC4B5B-07DF-4155-8188-43A1E029DF02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EBC4B5B-07DF-4155-8188-43A1E029DF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EBC4B5B-07DF-4155-8188-43A1E029DF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EBC4B5B-07DF-4155-8188-43A1E029DF02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
