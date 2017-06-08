@@ -12,7 +12,7 @@ namespace StaticClass
    public class Dog
     {
         public string name;
-        static public int count;
+        public static int count;
         //静态构造函数用于初始化静态字段
         //在引用任何静态成员之前，和创建任何实例之前调用
         //与类同名，无访问修饰符，无参数，使用static；

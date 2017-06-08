@@ -57,7 +57,7 @@ namespace learnCsharp
             int ly, ny;
             groth(nowAg, out ly, out ny);
             Console.WriteLine("我今年的年纪是{0}，去年是{1}，明年是{2}", nowAg, ly, ny);
-            Console.ReadKey();
+         
 
 
             //使用 New 运算符创建结构体对象
@@ -70,6 +70,13 @@ namespace learnCsharp
             book2.subject = "思念";
             book2.book_id = 003;
             Console.WriteLine("title:{0},author:{1},subject:{2},bookid:{3}", book2.title, book2.author, book2.subject, book2.book_id);
+            //结构是值类型
+            Book book3 = book1;
+            book3.title = "你们";
+            Console.WriteLine("book1 title:{0},author:{1},subject:{2},bookid:{3}", book1.title, book1.author, book1.subject, book1.book_id);//book1.title = "追风筝的人"
+            Console.WriteLine("book3 title:{0},author:{1},subject:{2},bookid:{3}", book3.title, book3.author, book3.subject, book3.book_id);//book3.title = "你们"
+
+            Console.ReadKey();
         }
     }
 }
