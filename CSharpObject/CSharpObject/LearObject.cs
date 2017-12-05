@@ -15,6 +15,7 @@ namespace CSharpObject
     abstract public class Animal
     {   
         //必须是方法，属性，事情，索引
+        //
         //必须用abstact修饰符标记
         //抽象方法不能有实际的函数体
         abstract public void eat();
